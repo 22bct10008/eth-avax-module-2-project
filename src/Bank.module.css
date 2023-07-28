@@ -1,0 +1,71 @@
+/* Bank.module.css */
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+  }
+  
+  .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .title {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .connectButton {
+	padding: 8px 16px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  .connectButton:hover {
+	background-color: #0056b3;
+  }
+  
+  .section {
+	margin-bottom: 30px;
+  }
+  
+  .walletCard, .interactionsCard {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #f5f5f5;
+  }
+  
+  .balanceButton, .interactionButton, .actionButton {
+	padding: 8px 16px;
+	border: none;
+	background-color: #28a745;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+	margin-right: 10px;
+  }
+  
+  .balanceButton:hover, .interactionButton:hover, .actionButton:hover {
+	background-color: #218838;
+  }
+  
+  .error {
+	color: #dc3545;
+	font-weight: bold;
+  }
+  
+  .success {
+	color: #28a745;
+	font-weight: bold;
+  }
+  
