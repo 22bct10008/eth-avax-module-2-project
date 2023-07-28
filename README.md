@@ -10,7 +10,7 @@ The Bank App Metacrafters project aims to provide users with a secure and user-f
 
 Follow these steps to run the project locally:
 
-1. Clone the project repository from GitHub: [Bank App Metacrafters Repo](https://github.com/gautham2k3/ETH-AVAX_Mod-2_Project/).
+1. Clone the project repository from GitHub: [Bank App Metacrafters Repo](https://github.com/22bct10008/eth-avax-module-2-project).
 2. Navigate to the project directory on your local machine.
 
 ## Running the Application
@@ -19,6 +19,12 @@ Before you start, ensure you have [MetaMask](https://metamask.io/) installed in 
 
 ```bash
 npm install
+npm start
+```
+### Deploying and Building 
+```bash
+npx hardhat node
+npx hardhat run --network localhost scripts/deploy.js
 npm start
 ```
 
